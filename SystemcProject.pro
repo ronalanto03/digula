@@ -15,12 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         systemcproject.cpp \
     baseconnector.cpp \
-    ports.cpp \
-    signals.cpp
+    port.cpp \
+    signal.cpp
 
 HEADERS  += systemcproject.h \
     baseconnector.h \
-    ports.h \
-    signals.h
+    port.h \
+    signal.h
 
 FORMS    += systemcproject.ui
